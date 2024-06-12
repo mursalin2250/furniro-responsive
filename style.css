@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: poppins;
+    line-height: 1.6;
+}
+header{
+    background-image: url(images/bg\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+img{
+    max-width: 100%;
+}
+.rooms{
+    background-color: #FCF8F3;
+}
+.carousel-inner > .carousel-item > img {
+    width: 100%;
+}
+.peace{
+    background-color: #FFFFFFB8;
+    position: absolute;
+    top: 70%;
+    right: 40%;
+}
+.fa-arrow-right-long{
+    background-color: #FFFFFFB8;
+    position: absolute;
+    top: 83.7%;
+    right: 27.5%;
+    font-size: xx-large;
+    padding: 10px;
+    color: white;
+    background-color: #B88E2F;
+}
+ul, ol{
+    padding-left: 15px !important;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+ul li{
+    padding-bottom: 40px;
+}
+input{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 250px;
+    outline: none;
+}

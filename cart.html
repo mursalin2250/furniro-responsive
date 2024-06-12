@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg py-4 fixed-top bg-white">
+                <div class="container">
+					<a class="navbar-brand" href="#">
+						<img src="images/logo.png" alt="FUrniro">
+					</a>              
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mx-auto mb-2 mb-lg-0" style="gap: 40px;font-weight: 500;">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="shop.html">Shop</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="about.html">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="contact.html">Contact</a>
+							</li>
+						</ul>
+						<form class="d-flex" role="search" style="gap: 5px;">
+							<a href="#" class="btn"><i class="fa-solid fa-user fs-4"></i></a>
+							<a href="#" class="btn"><i class="fa-solid fa-magnifying-glass fs-4"></i></a>
+							<a href="#" class="btn"><i class="fa-solid fa-heart fs-4"></i></a>
+							<a href="#" class="btn"><i class="fa-solid fa-cart-shopping fs-4"></i></a>
+						</form>
+                  	</div>
+                </div>
+            </nav>
+        </div>
+    </div>
+	
+	<header class="mb-5">
+		<div class="container">
+			<div class="row">
+				<div class="d-flex flex-column align-items-center justify-content-center" style="gap: 0px;">
+					<img src="images/logo 2.png" alt="">
+					<h1>Cart</h1>
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="index.html" class="text-black text-decoration-none" style="font-weight: 500;">Home</a></li>
+                          <li class="breadcrumb-item " aria-current="page">Cart</li>
+                        </ol>
+                      </nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="list my-5">
+		<div class="container">
+			<div class="row">
+				<div class="d-flex flex-wrap justify-content-center" style="gap: 50px;">
+					<div>
+						<div class="mb-3 py-2 d-flex align-items-center justify-content-center" style="background-color: #F9F1E7;">
+							<div class="card-body d-flex align-items-center justify-content-center flex-wrap ms-4" style="gap: 120px; font-weight: 500;">
+								<div class="d-flex" style="gap: 100px;">
+									<p>Product</p>
+									<p>Price</p>
+								</div>
+								<div class="d-flex align-items-center justify-content-center flex-wrap" style="gap: 40px;">
+									<p>Quantity</p>
+									<p>Subtotal</p>
+								</div>
+							</div>
+						</div>
+	
+						<div class="card mb-3 border-0">
+							<div class="row g-0">
+								<div class="d-flex align-items-center flex-wrap" style="gap: 50px;">
+									<div >
+										<img src="images/image 10.png" class="img-fluid" alt="...">
+									</div>
+									<div >
+										<div class="card-body d-flex align-items-center justify-content-center flex-wrap" style="gap: 60px;">
+											<h6 class="card-text text-secondary" style="font-weight: 400;">Asgaard sofa</h6>
+											<h6 class="card-text text-secondary" style="font-weight: 400;">Rs. 250,000.00</h6>
+											<button class="btn border border-black" style="height: 35px; width: 35px;">1</button>
+											<h6 style="font-weight: 400;">Rs. 250,000.00</h6>
+											<i class="fa-solid fa-trash fs-4 pb-2" style="color: #B88E2F;"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class=" d-flex flex-column flex-wrap align-items-center justify-content-center p-5" style="background-color: #F9F1E7; gap: 30px;">
+						<h2 style="font-weight: 600;" class="pb-4">Cart Totals</h2>
+						<div class="d-flex flex-wrap align-items-center justify-content-center" style="gap: 80px;">
+							<div>
+								<p>Subtotal</p>
+								<p>Total</p>
+							</div>
+							<div class="d-flex flex-column align-items-end">
+								<p class="text-secondary">Rs. 250,000.00</p>
+								<p style="font-size: larger; color: #B88E2F;">Rs. 250,000.00</p>
+							</div>
+						</div>
+						<div >
+							<button style="padding: 12px 55px; border: 1px solid black; background-color: transparent; border-radius: 15px;">Check Out</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="feature d-flex align-items-center justify-content-center">
+		<div class="container">
+			<div class="row">
+				<div class="d-flex align-items-start justify-content-start flex-wrap" style="gap: 60px;">
+					<div class="d-flex align-items-center" style="gap: 20px;">
+						<i class="fa-solid fa-trophy"></i>
+						<div>
+							<h5 style="font-weight: 600;">High Quality</h5>
+							<p class="text-secondary" style="font-weight: 500;">crafted from top materials</p>
+						</div>
+					</div>
+					<div class="d-flex align-items-center" style="gap: 20px;">
+						<img src="images/vector.png" alt="">
+						<div>
+							<h5 style="font-weight: 600;">Warranty Protection</h5>
+							<p class="text-secondary" style="font-weight: 500;">Over 2 years</p>
+						</div>
+					</div>
+					<div class="d-flex align-items-center" style="gap: 20px;">
+						<i class="fa-solid fa-box-archive"></i>
+						<div>
+							<h5 style="font-weight: 600;">Free Shipping</h5>
+							<p class="text-secondary" style="font-weight: 500;">Order over 150 $</p>
+						</div>
+					</div>
+					<div class="d-flex align-items-center" style="gap: 20px;" >
+						<i class="fa-solid fa-headset"></i>
+						<div>
+							<h5 style="font-weight: 600;">24 / 7 Support</h5>
+							<p class="text-secondary" style="font-weight: 500;">Dedicated support</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<hr class="pt-5 border-2" style="color: #0000002B;">
+    <footer class="py-5">
+		<div class="container">
+			<div class="row">
+				<div class="text col-lg-3 col-md-6 col-sm-12">
+					<img src="images/logo.png" class="mb-3">
+					<p style="color: #9F9F9F; font-weight: 500;">400 University Drive Suite 200 Coral <br> Gables, <br>FL 33134 USA</p>
+				</div>
+				<div class="links col-lg-3 col-md-6 col-sm-12">
+					<p style="color: #9F9F9F; font-weight: 500;">Links</p>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="shop.html">Shop</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="help col-lg-3 col-md-6 col-sm-12">
+					<p style="color: #9F9F9F; font-weight: 500;">Help</p>
+					<ul>
+						<li><a href="#">Payment Options</a></li>
+						<li><a href="#">Returns</a></li>
+						<li><a href="#">Privacy Policies</a></li>
+					</ul>
+				</div>
+				<div class="newsletter col-lg-3 col-md-6 col-sm-12">
+					<p style="color: #9F9F9F; font-weight: 500;">Newsletter</p>
+					<div class="d-flex flex-wrap" style="gap: 20px;">
+						<input type="text" placeholder="Enter Your Email Address">
+						<button style="background-color: transparent; border: none; border-bottom: 2px solid black; ">Subscribe</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
